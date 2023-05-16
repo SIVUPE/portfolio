@@ -11,7 +11,7 @@
    align-items: center;
    background-color: gray;
    position: sticky;
-   top: 0}
+   top: 0; }
 .navbar ul{
     display: flex;
     list-style: none;
@@ -92,5 +92,6 @@
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    color:palevioletred;
+    text-align: left;
+
 }
