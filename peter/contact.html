@@ -1,12 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+  <nav class="navbar">
+    <ul>
+       <ui><a href="index.html">Home</a></li>
+       <ui><a href="about.html">About </a></li>
+       <ui><a href="project.html">Projects</a></li>
+       <ui><a href="contact.html">Contact </a></li>
+ </nav>
+<h1>Contact Form</h1>
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <br>
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <br>
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="South africa">South Africa </option>
+      <option value="USA">USA</option>
+      <option value="Canada">Canada</option>
+      <option value="Singapore">Singapore</option>
+    </select>
+    <br>
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<div class="foot">
+  <h5 style="text-align: left;">phone number :  0695894962</h5>
+  <h5 style="text-align: left;">email   : sivuyisiwepeter79@gmail.com</h5>
+  <a href="http://www.com/in/sivuyisiwe-peter-155068240" class="fa fa-linkedin">http://www.com/in/sivuyisiwe-peter-155068240</a> 
+</div>
 </body>
 </html>
